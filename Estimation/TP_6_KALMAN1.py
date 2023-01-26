@@ -54,13 +54,13 @@ def Q4_10():
         beta = y[i] - C[i,:] @ xc
         G_eps = G_x - K @ np.array([C[i,:]]) @ G_x
 
-        print("x chapeau = ", xc)
-        print("gamma epsilon = ", G_eps)
+        print("x chapeau = \n", xc)
+        print("gamma epsilon = \n", G_eps)
 
 
 
-    print("xchapeau = ", xc)
-    print("Gamma epsilon", G_eps)
+    print("xchapeau = \n", xc)
+    print("Gamma epsilon = \n", G_eps)
 
 def Q4_11():
     A = [0,0,0]
