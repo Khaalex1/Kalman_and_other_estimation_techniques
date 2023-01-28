@@ -10,7 +10,7 @@ Lab 3 highlights Monte-Carlo's random search as well as the Simulated Annealing 
 Last labs are about the Kalman filter and its applications on elementary exercises. If linear-type relations exist between a state and his previous one; and the states (or positions) and the measures, in the fashion of 
 $$X_{k+1} = A.X_{k} + u_{k} + \alpha_{k} $$
 $$Y_{k} = C.X_{k} + \beta_{k}$$ 
- ,then the Kalman filter can estimate confidently the positions $X_{k}$. This filter is the association of 2 main parts run iteratively: the __Correction__ which can be applied alone to compute linear estimations, and the __Prediction__, which is the mode used when measurements are not available (e.g. problematic of GPS localization through a tunnel).
+, then the Kalman filter can estimate confidently the positions $X_{k}$. This filter is the association of 2 main parts run iteratively: the __Correction__ which can be applied alone to compute linear estimations, and the __Prediction__, which is the mode used when measurements are not available (e.g. problematic of GPS localization through a tunnel).
 
 SLAM notebook applies the Kalman filter on the localization of an underwater robot. The Kalman filter estimates the robot and landmarks' position as well as its error variance, which can allow to plot more intuitive representations, such as :
 
