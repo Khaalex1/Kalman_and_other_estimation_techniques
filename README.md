@@ -10,7 +10,6 @@ Lab 3 highlights Monté-Carlo's search as well as the Simulated Annealing (SA) m
 Last labs are about the Kalman filter and its applications on elementary exercises. If linear-type relations exist between the states (or positions) and the measures; and a state and his previous one, in the form of 
 $$\begin{cases}
         X_{k+1} = A.X_{k} + u_{k} + \alpha_{k} \\
-        Y_{k} = C.X_{k} + \beta_{k} \\ 
   \end{cases}  $$ 
   , the Kalman's filter can be a useful tool to estimate confidently a position. This filter is the association of 2 main parts run iteratively, the Correction which can be applied alone to compute linear estimations, and the Prediction, which is the mode used when measurements are not available (problematic of GPS localization when an auto goes through a tunnel).
 
