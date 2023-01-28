@@ -8,12 +8,10 @@ Lab 2 presents the Least Squares Estimator and shows application on small and el
 Lab 3 highlights Monté-Carlo's search as well as the Simulated Annealing (SA) method, based on the same idea. SA is applied on a robot searching with LIDAR detectors for an ideal spot in a room.
 
 Last labs are about the Kalman filter and its applications on elementary exercises. If linear-type relations exist between the states (or positions) and the measures; and a state and his previous one, in the form of 
- $$
-    \begin{cases}
+ $$\begin{cases}
         X_{k+1} = A.X_{k} + u_{k} + \alpha_{k} \\
         Y_{k} = C.X_{k} + \beta_{k} \\ 
-    \end{cases}  
-    $$ 
+   \end{cases}  $$ 
   , the Kalman's filter can be a useful tool to estimate confidently a position. This filter is the association of 2 main parts run iteratively, the Correction which can be applied alone to compute linear estimations, and the Prediction, which is the mode used when measurements are not available (problematic of GPS localization when an auto goes through a tunnel).
 
 SLAM applies the Kalman filter on the localization of an underwater robot. The Kalman filter estimates the robot and landmarks' position as well as its confidence level, which can allow to plot more intuitive representations, such as :
