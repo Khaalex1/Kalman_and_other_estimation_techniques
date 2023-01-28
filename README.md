@@ -21,4 +21,4 @@ SLAM notebook applies the Kalman filter on the localization of an underwater rob
 $$Confidence \ \ ellipses \ \ (\eta = 0.9) \\ of \\ estimated \\ positions \\ (blue \\ : \\ robot, \\ red \\ : \\ landmarks) $$
 
 A confidence ellipse at level $\eta$ indicates that an estimated position is inside with proba $\eta$. The smaller the ellipse is, the smaller the filter's margin of error is (it is more accurate).
-In this case, we see that the filter also exploits information from the environment to enhance accuracy, as the confidence spreading of the filter decreases when a landmark is detected.
+In this case, we see that the filter also exploits information from the environment to enhance accuracy, as the confidence spreading of the filter decreases near a landmark.
