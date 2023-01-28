@@ -10,3 +10,11 @@ Lab 3 highlights Monté-Carlo's search as well as the Simulated Annealing (SA) m
 Last labs are about the Kalman filter and its applications on elementary exercises. If linear-type relations exist between the states (or positions) and the measures; and a state and his previous one, the Kalman's filter can be a useful tool to estimate confidently a position. This filter is divided in 2 main parts, the Correction which can be applied alone to compute linear estimations, and the Prediction, which is the mode used when measurements are not available (problematic of GPS localization when an auto goes through a tunnel). When these two processes are associated, the filter can achieve great accuracy and confidence in its predictions.
 
 SLAM applies the Kalman filter on the localization of an underwater robot.
+
+<p align="center">
+  <img src="estimation/images/slam.gif " 
+       width="500" 
+       height="400"/>
+</p>
+
+$$Path estimation of an underwater robot$$
