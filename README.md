@@ -11,6 +11,6 @@ Last labs are about the Kalman filter and its applications on elementary exercis
 
 SLAM applies the Kalman filter on the localization of an underwater robot.
 
-![slam](https://github.com/Khaalex1/Kalman_and_other_estimation_techniques/tree/main/Estimation/images/Slam.gif)
+![Slam](https://user-images.githubusercontent.com/92320638/215238575-7df5ae81-b7f7-4beb-bf8a-218e730a6300.gif)
 
 $$Path estimation of an underwater robot$$
