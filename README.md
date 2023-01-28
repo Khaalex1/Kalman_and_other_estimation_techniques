@@ -3,11 +3,11 @@
 Different labs for the engineering course of Localization and Estimation (specialization year at ENSTA Bretagne), rewritten on jupyter notebooks.
 Exercises as well as some snippets used in the labs are from Dr Jaulin's course paper ["Mobile Robotics"](https://www.ensta-bretagne.fr/jaulin/ensi_isterobV2.pdf).
 
-Lab 2 presents the Least Squares Estimator and shows application on small and elementary exercises.
+Lab 2 presents the __Least Squares Estimator__ and shows application on small and elementary exercises.
 
-Lab 3 highlights Monte-Carlo's random search as well as the Simulated Annealing (SA) method, based on the same idea. SA is applied on a robot searching with LIDAR detectors for an ideal spot in a room.
+Lab 3 highlights __Monte-Carlo's random search__ as well as the __Simulated Annealing (SA)__ method, based on the same idea. SA is applied on a robot searching with LIDAR detectors for an ideal spot in a room.
 
-Last labs are about the Kalman filter and its applications on elementary exercises. If linear-type relations exist between a state $X$ and his previous one; and the states (or positions) and the measures $Y$, in the fashion of 
+Last labs are about the __Kalman filter__ and its applications on elementary exercises. If linear-type relations exist between a state $X$ and his previous one; and the states (or positions) and the measures $Y$, in the fashion of 
 $$X_{k+1} = A_{k}.X_{k} + u_{k} + \alpha_{k} $$
 $$Y_{k} = C_{k}.X_{k} + \beta_{k}$$ 
 , then the Kalman filter can estimate confidently the positions $X_{k}$. This filter is the association of 2 main parts run iteratively: the __Correction__ which can be applied alone to compute linear estimations, and the __Prediction__, which is the mode used when measurements are not available (e.g. problematic of GPS localization through a tunnel).
