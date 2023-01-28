@@ -13,4 +13,7 @@ SLAM applies the Kalman filter on the localization of an underwater robot.
 
 ![Slam](https://user-images.githubusercontent.com/92320638/215238575-7df5ae81-b7f7-4beb-bf8a-218e730a6300.gif)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/92320638/215238575-7df5ae81-b7f7-4beb-bf8a-218e730a6300.gif"/>
+</p>
 $$Path estimation of an underwater robot$$
