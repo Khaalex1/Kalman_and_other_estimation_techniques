@@ -13,7 +13,7 @@ $$\begin{cases}
         Y_{k} = C.X_{k} + \beta_{k} \\ 
   \end{cases}  $$ 
   
-  $$\Bigg\{1\Bigg)$$
+  $$\Bigg\{1\Bigg\}$$
   , the Kalman's filter can be a useful tool to estimate confidently a position. This filter is the association of 2 main parts run iteratively, the Correction which can be applied alone to compute linear estimations, and the Prediction, which is the mode used when measurements are not available (problematic of GPS localization when an auto goes through a tunnel).
 
 SLAM applies the Kalman filter on the localization of an underwater robot. The Kalman filter estimates the robot and landmarks' position as well as its confidence level, which can allow to plot more intuitive representations, such as :
