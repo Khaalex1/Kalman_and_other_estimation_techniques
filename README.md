@@ -12,7 +12,7 @@ Last labs are about the Kalman filter and its applications on elementary exercis
 SLAM applies the Kalman filter on the localization of an underwater robot.
 
 <p align="center">
-  <img src="estimation/images/slam.gif " 
+  <img src="estimation/images/Slam.gif " 
        width="500" 
        height="400"/>
 </p>
