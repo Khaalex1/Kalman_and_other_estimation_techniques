@@ -3,7 +3,7 @@
 Different labs for the engineering course of Localization and Estimation (specialization year at ENSTA Bretagne), rewritten on jupyter notebooks.
 Exercises as well as some snippets used in the labs are from Dr Jaulin's course paper ["Mobile Robotics"](https://www.ensta-bretagne.fr/jaulin/ensi_isterobV2.pdf).
 
-Lab 2 presents the __Least Squares Estimator__ and shows application on small and elementary exercises.
+Lab 2 presents the __Least Squares Estimator__ and shows applications on small and elementary exercises.
 
 Lab 3 highlights __Monte-Carlo's random search__ as well as the __Simulated Annealing (SA)__ method, based on the same idea. SA is applied on a robot searching with LIDAR detectors for an ideal spot in a room.
 
